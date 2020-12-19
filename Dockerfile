@@ -8,7 +8,7 @@ RUN apt-get update && \
         lib32gcc1 lib32stdc++6 wget binutils apache2 \
         php7.0 php7.0-cli libapache2-mod-php7.0 sqlite3 php7.0-sqlite php7.0-mysql php7.0-gd \
         vim zip unzip imagemagick lsof && apt-get clean && \
-        a2enmod php7.0
+        a2enmod php7.0 rsync
 
 VOLUME /mc
 
